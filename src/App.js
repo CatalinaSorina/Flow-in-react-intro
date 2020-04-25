@@ -1,23 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.png";
+import "./App.css";
+import Typing from "react-typing-animation";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://flow.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <img src={logo} className="App-logo" alt="logo" />
+          <Typing speed={500}>
+            <Typing.Delay ms={500} />
+            low
+          </Typing>
         </a>
+        <p>STATIC TYPE CHECKER FOR JAVASCRIPT</p>
       </header>
     </div>
   );
