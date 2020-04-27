@@ -6,11 +6,12 @@
   padding: 1rem;
   font-size: calc(0.5rem + 2vmin);
   cursor: default;
+  overflow: auto;
 }
 
 .App-logo {
   height: 20vmin;
-  margin-right:-1rem;
+  margin-right: -1rem;
 }
 
 .App-header {

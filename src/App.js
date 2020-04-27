@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import "./App.css";
 import Typing from "react-typing-animation";
+import CheckFlowTypes from "./components/CheckFlowTypes";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
         <p>STATIC TYPE CHECKER FOR JAVASCRIPT</p>
       </header>
+      <CheckFlowTypes />
     </div>
   );
 }

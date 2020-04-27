@@ -1,0 +1,16 @@
+.typeDiv {
+  margin: 2rem;
+  font-size: 2rem;
+  height: 40rem;
+}
+
+.typeInput {
+  /* position: absolute; */
+  margin: 1rem;
+  width: 18rem;
+  text-align: center;
+  background: none;
+  border: none;
+  font: 3rem Cursive;
+  color: #fbae39;
+}
