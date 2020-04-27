@@ -5,6 +5,7 @@
   min-height: 100vh;
   padding: 1rem;
   font-size: calc(0.5rem + 2vmin);
+  cursor: default;
 }
 
 .App-logo {
